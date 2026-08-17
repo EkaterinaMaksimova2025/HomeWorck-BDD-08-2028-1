@@ -18,6 +18,7 @@ public class DashboardPage {
     private final SelenideElement reloadButton = $("[data-test-id='action-reload']");
 
     public DashboardPage() {
+
         heading.shouldBe(visible);
     }
 

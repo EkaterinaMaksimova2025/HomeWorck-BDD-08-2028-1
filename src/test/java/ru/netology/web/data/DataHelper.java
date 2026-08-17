@@ -11,6 +11,7 @@ public class DataHelper {
     }
 
     public static AuthInfo getAuthInfo() {
+
         return new AuthInfo("vasya", "qwerty123");
     }
 
@@ -28,6 +29,7 @@ public class DataHelper {
 
     public static int generateInvalidAmount(int balance) {
         return Math.abs(balance) + 1;
+
     }
 
     @Value
